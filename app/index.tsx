@@ -2,7 +2,16 @@ import { fetchOrderBasicInfo, fetchOrderData, fetchSubOrderData } from '@/api';
 import { OrderDisplayItem, SubOrderDisplayItem } from '@/types';
 import { ShoppingCart } from 'lucide-react-native';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Dimensions, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+
+const { width, height } = Dimensions.get('window');
+
+// 可复用的头部组件
+const OrderHeader = () => (
+  <View style={styles.header}>
+    <Text style={styles.headerTitle}>订单详情</Text>
+  </View>
+);
 
 export default function OrderDetails() {
   const [order_id, setOrderId] = useState<string | null>(null);
@@ -179,9 +188,7 @@ export default function OrderDetails() {
   if (!order_id && !loading) {
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
-          <Text style={styles.headerTitle}>订单详情</Text>
-        </View>
+        <OrderHeader />
         <View style={styles.noOrderIdContainer}>
           <Text style={styles.noOrderIdText}>请输入订单ID</Text>
           <Text style={styles.noOrderIdSubText}>
@@ -205,9 +212,7 @@ export default function OrderDetails() {
   if (loading && !order_id) {
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
-          <Text style={styles.headerTitle}>订单详情</Text>
-        </View>
+        <OrderHeader />
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#2563EB" />
           <Text style={styles.loadingText}>正在获取订单信息...</Text>
@@ -223,9 +228,7 @@ export default function OrderDetails() {
         contentContainerStyle={styles.scrollContent}
       >
         {/* Header */}
-        <View style={styles.header}>
-          <Text style={styles.headerTitle}>订单详情</Text>
-        </View>
+        <OrderHeader />
 
         {/* Order Card */}
         <View style={styles.orderCard}>
@@ -303,9 +306,9 @@ const styles = StyleSheet.create({
   },
   header: {
     backgroundColor: '#FFFFFF',
-    paddingTop: 60,
+    paddingTop: height * 0.01,        // 屏幕高度的3%
+    paddingHorizontal: width * 0.05,  // 屏幕宽度的5%
     paddingBottom: 20,
-    paddingHorizontal: 20,
     borderBottomWidth: 1,
     borderBottomColor: '#E9E9E7',
   },
