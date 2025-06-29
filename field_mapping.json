@@ -1,0 +1,78 @@
+{
+    "order": {
+        "fields": {
+            "projectId": {
+                "label": "项目ID",
+                "isLink": true
+            },
+            "custShortName": {
+                "label": "客户简称",
+                "isLink": true
+            },
+            "responsibleSales": {
+                "label": "负责销售",
+                "isLink": true
+            },
+            "orderCountry": {
+                "label": "下单国家"
+            },
+            "factory": {
+                "label": "生产工厂"
+            },
+            "signingCountry": {
+                "label": "签约国家"
+            },
+            "containerQuantity": {
+                "label": "箱柜数量"
+            },
+            "crd": {
+                "label": "CRD"
+            },
+            "deliveryData": {
+                "label": "DeliveryData"
+            },
+            "etd": {
+                "label": "ETD"
+            },
+            "eta": {
+                "label": "ETA"
+            }
+        },
+        "request_url": "https://api.intcomedical.com:8011/prod-api/external/order/orderDataCompletion?id_list="
+    },
+    "subOrder": {
+        "fields": {
+            "sModelBoxCount": {
+                "label": "S型号箱数"
+            },
+            "lModelBoxCount": {
+                "label": "L型号箱数"
+            },
+            "xlModelBoxCount": {
+                "label": "XL型号箱数"
+            },
+            "xxlModelBoxCount": {
+                "label": "XXL型号箱数"
+            },
+            "totalBoxCount": {
+                "label": "总箱数"
+            },
+            "planEndTime": {
+                "label": "计划结束时间"
+            },
+            "description": {
+                "label": "货描"
+            },
+            "boxPrice": {
+                "label": "箱柜单价"
+            },
+            "boxCount": {
+                "label": "箱数"
+            },
+            "totalPrice": {
+                "label": "总价"
+            }
+        },
+        "request_url": "https://api.intcomedical.com:8011/prod-api/external/order/getOrderDataDetail?id="
+    }
+}

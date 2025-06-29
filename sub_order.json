@@ -1,0 +1,142 @@
+{
+    "error_msg": "",
+    "data": {
+        "result_list": [
+            {
+                "orderNo": {
+                    "value": "IN25001101",
+                    "systemName": "订单ID",
+                    "source": "NC"
+                },
+                "materialIndex": {
+                    "value": "M134E-011A",
+                    "systemName": "产品索引号",
+                    "source": "NC"
+                },
+                "model": {
+                    "value": null,
+                    "systemName": "型号",
+                    "source": "NC"
+                },
+                "boxCount": {
+                    "value": null,
+                    "systemName": "箱数",
+                    "source": "NC"
+                },
+                "boxPrice": {
+                    "value": ":20.8",
+                    "systemName": "箱单价",
+                    "source": "NC"
+                },
+                "description": {
+                    "value": "COMET Mask, White, 100pcs/box, 20box/carton, L size",
+                    "systemName": "货描",
+                    "source": "NC"
+                },
+                "sModelBoxCount": {
+                    "value": null,
+                    "systemName": "S型号箱数",
+                    "source": "NC"
+                },
+                "mModelBoxCount": {
+                    "value": null,
+                    "systemName": "M型号箱数",
+                    "source": "NC"
+                },
+                "lModelBoxCount": {
+                    "value": null,
+                    "systemName": "L型号箱数",
+                    "source": "NC"
+                },
+                "xlModelBoxCount": {
+                    "value": null,
+                    "systemName": "XL型号箱数",
+                    "source": "NC"
+                },
+                "xxlModelBoxCount": {
+                    "value": null,
+                    "systemName": "XXL型号箱数",
+                    "source": "NC"
+                },
+                "totalBoxCount": {
+                    "value": "500",
+                    "systemName": "总箱数",
+                    "source": "NC"
+                },
+                "planEndTime": {
+                    "value": "2025-02-09 04:29:36",
+                    "systemName": "计划结束时间",
+                    "source": "SMOM"
+                }
+            },
+            {
+                "orderNo": {
+                    "value": "IN25001101",
+                    "systemName": "订单ID",
+                    "source": "NC"
+                },
+                "materialIndex": {
+                    "value": "M134F-031A",
+                    "systemName": "产品索引号",
+                    "source": "NC"
+                },
+                "model": {
+                    "value": null,
+                    "systemName": "型号",
+                    "source": "NC"
+                },
+                "boxCount": {
+                    "value": null,
+                    "systemName": "箱数",
+                    "source": "NC"
+                },
+                "boxPrice": {
+                    "value": ":22",
+                    "systemName": "箱单价",
+                    "source": "NC"
+                },
+                "description": {
+                    "value": "COMET Mask, Black, 100pcs/box, 20box/carton, L size",
+                    "systemName": "货描",
+                    "source": "NC"
+                },
+                "sModelBoxCount": {
+                    "value": null,
+                    "systemName": "S型号箱数",
+                    "source": "NC"
+                },
+                "mModelBoxCount": {
+                    "value": null,
+                    "systemName": "M型号箱数",
+                    "source": "NC"
+                },
+                "lModelBoxCount": {
+                    "value": null,
+                    "systemName": "L型号箱数",
+                    "source": "NC"
+                },
+                "xlModelBoxCount": {
+                    "value": null,
+                    "systemName": "XL型号箱数",
+                    "source": "NC"
+                },
+                "xxlModelBoxCount": {
+                    "value": null,
+                    "systemName": "XXL型号箱数",
+                    "source": "NC"
+                },
+                "totalBoxCount": {
+                    "value": "500",
+                    "systemName": "总箱数",
+                    "source": "NC"
+                },
+                "planEndTime": {
+                    "value": "2025-02-09 04:29:36",
+                    "systemName": "计划结束时间",
+                    "source": "SMOM"
+                }
+            }
+        ]
+    },
+    "success": true
+}

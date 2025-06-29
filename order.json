@@ -1,0 +1,145 @@
+{
+    "error_msg": "",
+    "data": {
+        "result_map": {
+            "IN25001101": {
+                "orderNo": {
+                    "value": "IN25001101",
+                    "systemName": "订单ID",
+                    "source": "NC"
+                },
+                "custShortName": {
+                    "value": "6VILI",
+                    "systemName": "客户简称",
+                    "source": "NC"
+                },
+                "materialIndex": {
+                    "value": "M134E-011A,M134F-031A",
+                    "systemName": "产品索引号",
+                    "source": "NC"
+                },
+                "debitamount": {
+                    "value": "42800",
+                    "systemName": "已收款金额",
+                    "source": "NC"
+                },
+                "incomeName": {
+                    "value": "30% 定金，70%发货前付款",
+                    "systemName": "收款协议",
+                    "source": "NC"
+                },
+                "quantityOnHand": {
+                    "value": "0",
+                    "systemName": "现存量",
+                    "source": "NC"
+                },
+                "salesperson": {
+                    "value": "颜林林",
+                    "systemName": "销售负责人",
+                    "source": "NC"
+                },
+                "deliveryFactory": {
+                    "value": "山东英科医疗制品有限公司",
+                    "systemName": "发货工厂",
+                    "source": "NC"
+                },
+                "custRequestDate": {
+                    "value": "2025-02-01",
+                    "systemName": "客户要求日期",
+                    "source": "NC"
+                },
+                "deliveryDate": {
+                    "value": "2025-02-03",
+                    "systemName": "签署PI交期",
+                    "source": "NC"
+                },
+                "boxOrNot": {
+                    "value": "已下单",
+                    "systemName": "箱盒是否下单",
+                    "source": "NC"
+                },
+                "plannedStartTime": {
+                    "value": "2025-02-03 09:15:44",
+                    "systemName": "计划开始时间",
+                    "source": "SMOM"
+                },
+                "planEndTime": {
+                    "value": "2025-02-09 04:29:36",
+                    "systemName": "计划结束时间",
+                    "source": "SMOM"
+                },
+                "bookingStatus": {
+                    "value": "已放单",
+                    "systemName": "订舱状态",
+                    "source": "TMS"
+                },
+                "etd": {
+                    "value": "2025-02-12",
+                    "systemName": "ETD",
+                    "source": "TMS"
+                },
+                "eta": {
+                    "value": null,
+                    "systemName": "ETA",
+                    "source": "TMS"
+                },
+                "loadDate": {
+                    "value": "2025-02-09 08:00:00",
+                    "systemName": "装柜时间",
+                    "source": "TMS"
+                },
+                "needShipment": {
+                    "value": "需出货",
+                    "systemName": "是否需要出货",
+                    "source": "TMS"
+                },
+                "customerCode": {
+                    "value": "2790189176963294",
+                    "systemName": "客户编码",
+                    "source": "CRM"
+                },
+                "custName": {
+                    "value": "VILIV INC",
+                    "systemName": "客户全称",
+                    "source": "CRM"
+                },
+                "country": {
+                    "value": "+82韩国KR",
+                    "systemName": "客户国家",
+                    "source": "CRM"
+                },
+                "publicSea": {
+                    "value": "医疗防护-已成交-Open区[客户]",
+                    "systemName": "所属区域公海",
+                    "source": "CRM"
+                },
+                "publicSeaPoolStatus": {
+                    "value": "已签约",
+                    "systemName": "公海池状态",
+                    "source": "CRM"
+                },
+                "paymentPeriod": {
+                    "value": "0",
+                    "systemName": "账期",
+                    "source": "CRM"
+                },
+                "collectionAgreement": {
+                    "value": "30% 定金，70%发货前付款",
+                    "systemName": "收款协议",
+                    "source": "CRM"
+                },
+                "estimatedRecoveryTime": {
+                    "value": "2025-12-25 08:00:00",
+                    "systemName": "预计回收时间",
+                    "source": "CRM"
+                },
+                "isDraft": {
+                    "value": null,
+                    "systemName": "图稿状态",
+                    "source": "MRP"
+                }
+            }
+        }
+    },
+    "success": true
+}
