@@ -279,7 +279,7 @@ export default function OrderDetails() {
       </ScrollView>
 
       {/* Sticky Bottom Buttons - Three in a row */}
-      <View style={styles.stickyButtonContainer}>
+      {/* <View style={styles.stickyButtonContainer}>
         <View style={styles.buttonRow}>
           <TouchableOpacity style={styles.bottomButton}>
             <Text style={styles.bottomButtonText}>NC</Text>
@@ -291,7 +291,7 @@ export default function OrderDetails() {
             <Text style={styles.bottomButtonText}>TMS</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </View> */}
     </View>
   );
 }
