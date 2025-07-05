@@ -1,10 +1,6 @@
 {
     "order": {
         "fields": {
-            "projectId": {
-                "label": "项目ID",
-                "isLink": true
-            },
             "custShortName": {
                 "label": "客户简称",
                 "isLink": true
